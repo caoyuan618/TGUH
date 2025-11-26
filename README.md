@@ -20,6 +20,7 @@ For further experiments, please follow the steps outlined below. Fisrt, generate
 
 TGUH requires generating textual descriptions for the images in the dataset, and you can use the OFA model or other models to accomplish this.
 First, extract features from the dataset and the texts. We use the CLIP model to extract features separately for the database, training set, and test set, while also extracting features from the generated textual descriptions.
+
 ````
 cd TGUH/clip_feature
 python clip_img_feature.py
